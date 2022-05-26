@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+   
+    background-color: aqua;
+    height : 500px;
+    /* display: flex;
+    justify-content: space-between; */
+    
+    
+}
+header h1{
+    color: blueviolet;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+} 
+header p {
+    color: blueviolet;
+}
+.container-grid {
+    width: 1200px;
+    margin:0 auto;
+   
+    
+    
+     
+   
+    
+
+}
+
+ 
+
+
+
+.logo {
+height: 250px;
+ width: 1200px;
+display :flex; 
+ justify-content : space-between; 
+    
+} 
+
+
+.menu  {
+    /* display: flex;
+    justify-content: center; */
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 30px; 
+}
+
+
+
+    
+    
+
+
+      #barras {
+          
+         display:none;
+      
+      }
+    
+ #lançamentos{
+  text-decoration: none;
+  position: relative;   
+  left: 20px;
+     
+}
+    
+    
+  
+ #maisvendidos{
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+ } 
+ #campeonatos{
+     text-decoration: none;
+     position: relative;
+     left: 400px;
+ }
+.icone {
+     display: flex; 
+    justify-content: center;
+}   
+
+    
+main {
+    background-color: greenyellow; 
+    height: 800px;
+    /* display:  flex;
+    justify-content:  center;  */
+
+
+}  
+.centro{
+    width: 100%;
+}
+
+#mario{
+    position: relative;
+    left: 20px;
+}
+#acessorios{
+    position: relative;
+    left: 350px;
+    top: 20px;
+}
+#foto{
+    position: relative;
+    left: 600px;
+    top: 13px;
+
+}
+
+  
+#note{
+   display: flex;
+   justify-content: flex-start;
+   position: relative;
+   left: 200px; ;
+}
+
+ 
+
+  
+    footer{
+        background-color: darksalmon;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .sociais h1{
+        display: flex;
+        justify-content: center;
+
+
+    }
+    .sociais p{
+        display: flex;
+        justify-content: center
+    } 
+    
+    #campo-email{
+       font-size: 20px; 
+       border-radius: 10px;
+    }     
+    
+    
+    
+    
+    
+    
+    @media screen and  (max-width : 768px ) {
+        header{
+            background-color: darkblue;
+        } 
+    
+    }  
+    
+      @media screen and (max-width: 1100px ){
+           .menu  {
+             display: none; 
+              position: absolute; 
+            
+             top: 80px;
+             left:0%;
+             height: 400px;
+             flex-direction: column;
+             align-items:center ;
+             background-color:bisque;
+            }
+               
+          #barras {
+              display: inline-block; }
+          }
